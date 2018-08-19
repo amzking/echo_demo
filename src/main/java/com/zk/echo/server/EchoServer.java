@@ -20,6 +20,7 @@ public class EchoServer {
 
 
     public static void main(String[] args) throws Exception {
+        System.out.println(args);
         if (args.length != 1) {
             System.out.println("Usage:  "  + EchoServer.class.getSimpleName() +
             " <Port> ");
