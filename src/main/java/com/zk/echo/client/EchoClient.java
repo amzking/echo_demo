@@ -22,6 +22,7 @@ public class EchoClient {
 
 
     public void start() throws Exception {
+        // 注释的双斜线后应有空格
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             Bootstrap b = new Bootstrap();
