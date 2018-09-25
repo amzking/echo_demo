@@ -102,7 +102,7 @@ public class Util {
                 if (int1 > int2) {
                     return 1;
                 }
-                if (int1 == int2) {
+                if (int1.equals(int2)) {
                     return 0;
                 }
                 break;
@@ -116,7 +116,7 @@ public class Util {
                 if (double1 > double2) {
                     return 1;
                 }
-                if (double1 == double2) {
+                if (double1.equals(double2)) {
                     return 0;
                 }
                 break;
@@ -130,11 +130,11 @@ public class Util {
                 if (float1 > float2) {
                     return 1;
                 }
-                if (float1 == float2) {
+                if (float1.equals(float2)) {
                     return 0;
                 }
 
-                default:
+            default:
                     return o1.toString().compareTo(o2.toString());
 
         }
